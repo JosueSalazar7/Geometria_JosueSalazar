@@ -1,11 +1,10 @@
 public class musica {
-    public class Musica {
         String titulocancion;
         int aniopublicacion;
         String genero;
         String artista;
 
-        public Musica(){
+        public musica(){
             titulocancion = "Dejate llevar";
             aniopublicacion = 2018;
             genero = "regueton";
@@ -44,5 +43,3 @@ public class musica {
             this.artista = artista;
         }
     }
-
-}
